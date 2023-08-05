@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-US">  
 
 <head>
     <meta charset="utf-8">
@@ -196,23 +196,11 @@
         </div>
 
     </footer>
-    <script>
-        function initMap() {
-            var map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 3,
-                center: {
-                    lat: 46.619261,
-                    lng: -33.134766
-                }
-            });
-        }
-    </script>    
+    <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>       
     <!--   var APIKey = "AIzaSyCh2u44cGlwX6-ZmZ0ZwsEPfpIQV_4f3IY"; -->       
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh2u44cGlwX6-ZmZ0ZwsEPfpIQV_4f3IY&callback=initMap"></script>
-    <script src="assets/js/maps.js"></script>
-    
+    <script src="assets/js/maps.js"></script> 
 
 </body>
-
 </html>

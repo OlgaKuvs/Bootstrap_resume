@@ -410,6 +410,9 @@ div#map {
 
 /*----------------------------------------Google Maps */
 
-div#map {
-    min-height: 360px;
+
+
+div #map {
+    height: 360px; 
+    width: 100%; 
 }
