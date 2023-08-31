@@ -76,4 +76,4 @@ function fetchGitHubInformation(event) {
         });
 }
 
-$(document).ready(fetchGitHubInformation); // fill in default data for "octocat" user
+$(document).ready(fetchGitHubInformation); // fill in the default data for "octocat" user
